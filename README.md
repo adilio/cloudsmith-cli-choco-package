@@ -1,8 +1,8 @@
 # cloudsmith-cli-choco-package
 
-Package source for the "cloudsmith-cli" Chocolatey package
+Package source for the Chocolatey package of the [clousdmith-cli](https://github.com/cloudsmith-io/cloudsmith-cli).
 
-The Cloudsmith Command Line Interface (CLI) is a text-based interface to the [Cloudsmith](https://cloudsmith.com) API.
+The [Cloudsmith Command Line Interface (CLI)](https://github.com/cloudsmith-io/cloudsmith-cli) is a text-based interface to the [Cloudsmith](https://cloudsmith.com) API.
 This allows users, machines and other services to access and integrate smoothly with Cloudsmith without requiring explicit plugins or tools.
 Currently, this chocolatey package takes a simple dependency on `python`, so be forewarned that the latest available python package (python3) will be installed. Also, since the underlying install command uses `pip`, and pip is often out-of-date in the latest python package, pip will also be ugraded before the target package install. We plan to support more advanced customizations in a future build.
 
