@@ -5,4 +5,4 @@ Start-ChocolateyProcessAsAdmin -Statements "-m pip install --upgrade pip" -ExeTo
 $Pip = (Get-ChildItem C:\python*\ -Recurse -Filter pip.exe).Fullname
 Start-ChocolateyProcessAsAdmin -Statements "install --upgrade cloudsmith-cli==0.32.0" -ExeToRun $Pip
 refreshenv
-Write-Host -ForegroundColor Green "The cloudsmith-cli package has now been installed successfully."s
+Write-Host -ForegroundColor Green "The cloudsmith-cli package has now been installed successfully."
