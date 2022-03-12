@@ -4,7 +4,6 @@
     <id>cloudsmith-cli</id>
     <version>0.32.0</version>
     <title>cloudsmith-cli (Install)</title>
-    <id>cloudsmith-cli</id>
     <authors>Cloudsmith</authors>
     <owners>Cloudsmith</owners>
     <projectUrl>https://github.com/cloudsmith-io/cloudsmith-cli</projectUrl>
