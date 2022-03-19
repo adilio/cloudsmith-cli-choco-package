@@ -5,25 +5,25 @@
     <version>0.32.0</version>
     <title>cloudsmith-cli (Install)</title>
     <authors>Cloudsmith</authors>
-    <owners>Cloudsmith</owners>
-    <projectUrl>https://github.com/cloudsmith-io/cloudsmith-cli</projectUrl>
-    <projectSourceUrl>https://github.com/adilio/cloudsmith-cli-choco-package</projectSourceUrl>
-    <docsUrl>https://help.cloudsmith.io/docs/cli</docsUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/adilio/cloudsmith-cli-choco-package/cloudsmith-icon.png</iconUrl>
+    <owners>adilio</owners>
     <licenseUrl>https://github.com/cloudsmith-io/cloudsmith-cli/blob/master/LICENSE/</licenseUrl>
+    <projectUrl>https://github.com/cloudsmith-io/cloudsmith-cli</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/adilio/cloudsmith-cli-choco-package/cloudsmith-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description><![CDATA[The [Cloudsmith Command Line Interface (CLI)](https://github.com/cloudsmith-io/cloudsmith-cli) is a text-based interface to the [Cloudsmith](https://cloudsmith.com) API. This allows users, machines and other services to access and integrate smoothly with Cloudsmith without requiring explicit plugins or tools.
+    <description>The [Cloudsmith Command Line Interface (CLI)](https://github.com/cloudsmith-io/cloudsmith-cli) is a text-based interface to the [Cloudsmith](https://cloudsmith.com) API.
+This allows users, machines and other services to access and integrate smoothly with Cloudsmith without requiring explicit plugins or tools.
 
-Currently, this chocolatey package takes a simple dependency on `python`, so be forewarned that the latest available python package (python3) will be installed. Also, since the underlying install command uses `pip`, and pip is often out-of-date in the latest python package, pip will also be ugraded before the target package install. We plan to support more advanced customizations in a future build.
+PLEASE NOTE: Once this package is installed, the 'cloudsmith' commands MAY NOT work until you close and re-open your PowerShell console,
+or until you run a 'refreshenv' command. This only happens on first-run.
 
-## About
-
-[Cloudsmith](https://cloudsmith.com) is a Global, Cloud-Native, Secure and Universal package repository for ALL your artifact needs.
-We support hosting of 28+ package formats, including Chocolatey NuGet packages.We also have plans for Free and OSS users.
-You can sign up for a free 14-day trial of our paid features [here](https://cloudsmith.com/signup/) (no credit card info required).
-]]></description>
+Currently, this chocolatey package takes a simple dependency on `python`, so be forewarned that the latest available python package (python3) will be installed.
+Also, since the underlying install command uses `pip`, and pip is often out-of-date in the latest python package, pip will also be ugraded before the target package install.
+We plan to support more advanced customizations in a future build.
+</description>
     <summary>Python command-line client to interact with Cloudsmith API</summary>
     <tags>cloudsmith-cli python repository nuget</tags>
+    <projectSourceUrl>https://github.com/adilio/cloudsmith-cli-choco-package</projectSourceUrl>
+    <docsUrl>https://help.cloudsmith.io/docs/cli</docsUrl>
     <dependencies>
       <dependency id="python" />
     </dependencies>
